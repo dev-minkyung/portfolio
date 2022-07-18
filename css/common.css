@@ -3,6 +3,10 @@
 /* Flex */
 /* Gradient */
 /* COMMON */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #fff;
   background: #1f1e1e;
@@ -12,7 +16,7 @@ body {
 }
 
 section {
-  padding-top: 60px;
+  padding-top: 120px;
 }
 section:first-child {
   padding-top: 0;
@@ -33,7 +37,7 @@ a {
   text-decoration: none;
   color: inherit;
   letter-spacing: 0.1rem;
-  transition: color 0.6s;
+  transition: color 0.4s;
 }
 a:hover {
   color: #fff;
