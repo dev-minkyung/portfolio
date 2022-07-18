@@ -42,10 +42,3 @@ $bg-gradient: linear-gradient(45deg, $mint, $purple, $lightblue, $mint, $purple)
 	-webkit-text-fill-color: transparent;
 	@content
 }
-
-
-/* Ratio */
-
-@function ratio($size, $ratio) {
-	@return $size * $ratio
-}

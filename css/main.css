@@ -2,13 +2,7 @@
 /* Color */
 /* Flex */
 /* Gradient */
-/* Ratio */
-@font-face {
-  font-family: "LAB디지털";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/LAB디지털.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
+/* 애니메이션 효과 모음 */
 @-webkit-keyframes loop_designTool {
   0% {
     content: " Photoshop ";
@@ -247,6 +241,7 @@
     transform: translateY(calc(-100% + 300px));
   }
 }
+/* MAIN */
 main {
   /* .main_view */
   /* SKILLS END */
