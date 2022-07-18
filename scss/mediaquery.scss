@@ -1,0 +1,142 @@
+@media (max-width: 1024px) {
+
+  h2 {
+    font-size: 8rem;
+  }
+  main {
+		#main_view {
+			.inner {
+				flex-direction: column;
+			}
+		}
+    #skills {
+      .skills_intro {
+        .skills_title {
+          font-size: 3rem;
+        }
+      }
+      .skills_content {
+        .design_skill { flex-basis : 40%; }
+			  .dev_skill { flex-basis: 40%; }
+      }
+      .tools {
+        ul {
+          display: grid;
+          grid-template-columns: repeat(4, 110px);
+          grid-template-rows: repeat(2, 110px);
+        }
+      }
+    }
+	}
+}
+
+@media (max-width: 768px) {
+
+  h2 {
+    font-size: 5rem;
+  }
+
+  main {
+    #main_view {
+      .intro {
+        .intro_title {
+          font-size: 1rem;
+          .intro_gradient {
+            font-size: 3.5rem;
+          }
+        }
+        .intro_content {
+          font-size: 0.875rem;
+        }
+      }
+      .intro_image {
+        margin-bottom: 40px;
+        .computer_coding {
+          width: 250px;
+          height: 250px;
+          .coding {
+            top: 65px;
+            right: 30px;
+            width: 70px;
+            height: 60px;
+          }
+          .window {
+            display: none;
+          }
+        }
+      }
+    }
+    #skills {
+      .skills_intro {
+        margin-top: -20px;
+        .skills_title { 
+          font-size: 1.75rem;
+        }
+      }
+      .skills_content {
+        flex-direction: column;
+        gap: 40px;
+        margin: 40px 0 60px;
+      }
+      .tools {
+        ul {
+          grid-template-columns: repeat(4, 70px);
+          grid-template-rows: repeat(2, 70px);
+          gap: 16px;
+          li {
+            img {
+              padding: 0;
+              width: 70px;
+              height: 70px;
+            }
+          }
+        }
+      }
+    }
+    #works {
+      h2 {
+        margin: 0;
+      }
+      .project {
+        width: calc(100% - 40px);
+        flex-direction: column;
+        height: 450px;
+        padding: 20px;
+        border-radius: 0 100px 0 0;
+        margin: 0 0 60px;
+
+        .project_image {
+          order: 1;
+          width: 100%;
+        }
+        .project_content { 
+          padding: 0;
+          .project_subject{
+            margin: 0;
+            .project_title {
+              font-size: 1.75rem;
+            }
+          }
+          .project_process {
+            margin: 20px 0;
+            h4 {
+              width: 72px;
+            }
+            font-size: 0.875rem;
+          }
+        }
+        &:nth-child(even) {
+          border-radius: 0 100px 0 0;
+          .project_number {
+            right: 0;
+            text-align: end;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    font-size: 0.875rem;
+  }
+}

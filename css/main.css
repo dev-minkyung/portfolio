@@ -1,0 +1,508 @@
+@charset "UTF-8";
+/* Color */
+/* Flex */
+/* Gradient */
+/* Ratio */
+@font-face {
+  font-family: "LAB디지털";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/LAB디지털.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@-webkit-keyframes loop_designTool {
+  0% {
+    content: " Photoshop ";
+    color: #7873f5;
+  }
+  20% {
+    content: " Photoshop ";
+    color: #7873f5;
+  }
+  25% {
+    content: " Illustration ";
+    color: Orange;
+  }
+  45% {
+    content: " Illustration ";
+    color: Orange;
+  }
+  50% {
+    content: " AdobeXD ";
+    color: #7873f5;
+  }
+  70% {
+    content: " AdobeXD ";
+    color: #7873f5;
+  }
+  75% {
+    content: " Figma ";
+    color: #18e8da;
+  }
+  95% {
+    content: " Figma ";
+    color: #18e8da;
+  }
+  100% {
+    content: " Photoshop ";
+    color: #7873f5;
+  }
+}
+@keyframes loop_designTool {
+  0% {
+    content: " Photoshop ";
+    color: #7873f5;
+  }
+  20% {
+    content: " Photoshop ";
+    color: #7873f5;
+  }
+  25% {
+    content: " Illustration ";
+    color: Orange;
+  }
+  45% {
+    content: " Illustration ";
+    color: Orange;
+  }
+  50% {
+    content: " AdobeXD ";
+    color: #7873f5;
+  }
+  70% {
+    content: " AdobeXD ";
+    color: #7873f5;
+  }
+  75% {
+    content: " Figma ";
+    color: #18e8da;
+  }
+  95% {
+    content: " Figma ";
+    color: #18e8da;
+  }
+  100% {
+    content: " Photoshop ";
+    color: #7873f5;
+  }
+}
+@-webkit-keyframes loop_devTool {
+  0% {
+    content: " HTML ";
+    color: #18e8da;
+  }
+  20% {
+    content: " HTML ";
+    color: #18e8da;
+  }
+  25% {
+    content: " CSS ";
+    color: #7873f5;
+  }
+  45% {
+    content: " CSS ";
+    color: #7873f5;
+  }
+  50% {
+    content: " SCSS ";
+    color: Hotpink;
+  }
+  70% {
+    content: " SCSS ";
+    color: Hotpink;
+  }
+  75% {
+    content: " JS ";
+    color: Gold;
+  }
+  95% {
+    content: " JS ";
+    color: Gold;
+  }
+  100% {
+    content: " HTML ";
+    color: #18e8da;
+  }
+}
+@keyframes loop_devTool {
+  0% {
+    content: " HTML ";
+    color: #18e8da;
+  }
+  20% {
+    content: " HTML ";
+    color: #18e8da;
+  }
+  25% {
+    content: " CSS ";
+    color: #7873f5;
+  }
+  45% {
+    content: " CSS ";
+    color: #7873f5;
+  }
+  50% {
+    content: " SCSS ";
+    color: Hotpink;
+  }
+  70% {
+    content: " SCSS ";
+    color: Hotpink;
+  }
+  75% {
+    content: " JS ";
+    color: Gold;
+  }
+  95% {
+    content: " JS ";
+    color: Gold;
+  }
+  100% {
+    content: " HTML ";
+    color: #18e8da;
+  }
+}
+@-webkit-keyframes loop_code {
+  0% {
+    transform: translateY(0);
+    transform: skew(0 30deg);
+  }
+  100% {
+    transform: translateY(-100%);
+    transform: skew(0 30deg);
+  }
+}
+@keyframes loop_code {
+  0% {
+    transform: translateY(0);
+    transform: skew(0 30deg);
+  }
+  100% {
+    transform: translateY(-100%);
+    transform: skew(0 30deg);
+  }
+}
+@-webkit-keyframes loop_scroll_down {
+  0% {
+    transform: translateY(0);
+    height: 0;
+  }
+  50% {
+    transform: translateY(50%);
+    height: 50%;
+  }
+  100% {
+    transform: translateY(100%);
+    height: 100%;
+  }
+}
+@keyframes loop_scroll_down {
+  0% {
+    transform: translateY(0);
+    height: 0;
+  }
+  50% {
+    transform: translateY(50%);
+    height: 50%;
+  }
+  100% {
+    transform: translateY(100%);
+    height: 100%;
+  }
+}
+@-webkit-keyframes rotate_gradient {
+  from {
+    background-position: left;
+  }
+  to {
+    background-position: right;
+  }
+}
+@keyframes rotate_gradient {
+  from {
+    background-position: left;
+  }
+  to {
+    background-position: right;
+  }
+}
+@-webkit-keyframes preview_site {
+  0% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(calc(-100% + 300px));
+  }
+  100% {
+    transform: translateY(calc(-100% + 300px));
+  }
+}
+@keyframes preview_site {
+  0% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(calc(-100% + 300px));
+  }
+  100% {
+    transform: translateY(calc(-100% + 300px));
+  }
+}
+main {
+  /* .main_view */
+  /* SKILLS END */
+}
+main #main_view {
+  margin-top: 72px;
+  height: calc(100vh - 72px);
+}
+main #main_view .inner {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+}
+main #main_view .intro {
+  flex-basis: 50%;
+  margin-top: 10%;
+}
+main #main_view .intro .intro_title {
+  letter-spacing: 0.25rem;
+  font-size: 1.25rem;
+  font-weight: 200;
+}
+main #main_view .intro .intro_title .intro_gradient {
+  display: inline-block;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.6;
+  background-image: linear-gradient(45deg, #88d3ce, #7873f5, #8ec5fc, #88d3ce, #7873f5);
+  background-size: 400%;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: rotate_gradient 4s infinite alternate;
+          animation: rotate_gradient 4s infinite alternate;
+}
+main #main_view .intro .intro_content {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #88d3ce;
+  letter-spacing: 0.5rem;
+  line-height: 2;
+  text-transform: uppercase;
+}
+main #main_view .intro .btn {
+  margin-top: 40px;
+}
+main #main_view .intro_image {
+  flex-basis: 50%;
+  align-self: flex-end;
+  margin-bottom: 80px;
+}
+main #main_view .intro_image .computer_coding {
+  width: 300px;
+  height: 330px;
+  position: relative;
+  float: right;
+}
+main #main_view .intro_image .computer_coding .coding {
+  position: absolute;
+  top: 85px;
+  right: 35px;
+  width: 80px;
+  height: 65px;
+  overflow: hidden;
+  transform: skewY(30deg);
+}
+main #main_view .intro_image .computer_coding .coding::before {
+  content: url("../images/coding.svg");
+  display: block;
+  width: 100%;
+  -webkit-animation: loop_code 25s infinite linear;
+          animation: loop_code 25s infinite linear;
+}
+main #main_view .intro_image .computer_coding .window {
+  position: absolute;
+  top: -80px;
+  left: 80px;
+  z-index: -1;
+  width: 100px;
+  height: 160px;
+  transform: skewY(30deg);
+  border: 6px solid rgba(0, 0, 0, 0.4);
+  border-radius: 100px 100px 0 0;
+  background-image: linear-gradient(45deg, #88d3ce, #7873f5, #8ec5fc, #88d3ce, #7873f5);
+  background-size: 400%;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: border-box;
+  -webkit-animation: rotate_gradient 8s infinite alternate;
+          animation: rotate_gradient 8s infinite alternate;
+}
+main #main_view .scroll_down .scroll_line {
+  width: 1px;
+  height: 320px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  bottom: -80px;
+  margin-left: 20px;
+  background-color: #434343;
+}
+main #main_view .scroll_down .scroll_line:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(136, 211, 206, 0.5);
+  -webkit-animation: "loop_scroll_down" 5s infinite ease-in-out;
+          animation: "loop_scroll_down" 5s infinite ease-in-out;
+}
+main #skills .skills_intro {
+  margin-top: -100px;
+}
+main #skills .skills_intro .skills_title {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+}
+main #skills .skills_intro .skills_title .design_tool:after {
+  content: "";
+  -webkit-animation: "loop_designTool" 8s infinite linear;
+          animation: "loop_designTool" 8s infinite linear;
+}
+main #skills .skills_intro .skills_title .dev_tool:after {
+  content: "";
+  -webkit-animation: "loop_devTool" 8s infinite linear;
+          animation: "loop_devTool" 8s infinite linear;
+}
+main #skills .skills_content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  gap: 80px;
+  margin: 60px 0 80px;
+}
+main #skills .skills_content h4 {
+  margin: 0 0 10px 10px;
+}
+main #skills .skills_content .design_skill {
+  flex-basis: 25%;
+}
+main #skills .skills_content .dev_skill {
+  flex-basis: 25%;
+}
+main #skills .skills_content li {
+  color: #d8d8d8;
+  word-break: keep-all;
+  line-height: 1.5rem;
+  text-indent: -1.25em;
+  margin-left: 2em;
+  margin-bottom: 10px;
+}
+main #skills .skills_content li::before {
+  content: "✓";
+  display: inline-block;
+  width: 20px;
+  font-size: 1.25rem;
+  color: #88d3ce;
+  text-indent: 0;
+  margin-left: 0;
+}
+main #skills .tools {
+  margin-bottom: 80px;
+}
+main #skills .tools ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+main #skills .tools ul li img {
+  padding: 15px;
+  border: 1px solid rgba(136, 211, 206, 0.5);
+  box-sizing: border-box;
+}
+main #works .inner {
+  margin: 0 auto;
+}
+main #works h2 {
+  margin: 0 20px 0 0;
+  float: right;
+}
+main #works .project {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: flex-start;
+  position: relative;
+  width: 90%;
+  max-width: 1000px;
+  height: 300px;
+  padding: 30px;
+  border: 1px solid rgba(136, 211, 206, 0.5);
+  border-radius: 0 130px 0 0;
+  background-color: #1f1e1e;
+  margin: 0 auto 80px;
+  /* 프로젝트 짝수 스타일 */
+}
+main #works .project .project_number {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  color: #88d3ce;
+  line-height: 1;
+  font-size: 3rem;
+  font-weight: 800;
+  font-style: italic;
+}
+main #works .project .project_image {
+  flex-basis: 55%;
+  overflow: hidden;
+}
+main #works .project .project_image img {
+  width: 100%;
+}
+main #works .project .project_content {
+  flex-basis: 35%;
+  padding: 0 20px;
+}
+main #works .project .project_content .project_subject {
+  margin: 20px 0;
+}
+main #works .project .project_content .project_subject .project_title {
+  font-size: 2rem;
+  font-weight: 800;
+}
+main #works .project .project_content .project_process {
+  margin-bottom: 40px;
+}
+main #works .project .project_content .project_process h4 {
+  width: 20%;
+  display: inline-block;
+  letter-spacing: 0;
+}
+main #works .project .project_content .project_process .project_cate {
+  text-transform: uppercase;
+}
+main #works .project:nth-child(even) {
+  justify-content: flex-end;
+  border-radius: 140px 0 0 0;
+}
+main #works .project:nth-child(even) .project_number {
+  left: 0;
+}
+main #works .project:nth-child(even) .project_image {
+  order: 2;
+}
+main #works .project:hover .project_image img {
+  -webkit-animation: preview_site 20s linear;
+          animation: preview_site 20s linear;
+}

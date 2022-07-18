@@ -1,0 +1,51 @@
+
+/* Color */
+
+$brand-color: #417bef;
+$bg-color: #1f1e1e;
+$grey: #767676;
+$lightgrey: #d8d8d8;
+
+$purple: #7873f5;
+$mint: #88d3ce;
+$lightblue: #8ec5fc;
+$dark_mint: #18e8da;
+
+$bg-gradient: linear-gradient(45deg, $mint, $purple, $lightblue, $mint, $purple);
+
+
+/* Flex */
+@mixin flex-column {
+	display: flex;
+	flex-direction: column;
+	gap:20px;
+	@content;
+}
+
+@mixin flex-row {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	@content;
+}
+
+
+/* Gradient */
+@mixin gradient_clip {
+	background: {
+		image: $bg-gradient;
+		size: 400%;
+		clip: text;
+	}
+	color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	@content
+}
+
+
+/* Ratio */
+
+@function ratio($size, $ratio) {
+	@return $size * $ratio
+}
