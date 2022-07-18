@@ -39,9 +39,6 @@ a {
   letter-spacing: 0.1rem;
   transition: color 0.4s;
 }
-a:hover {
-  color: #fff;
-}
 
 .btn {
   padding: 12px 16px;
