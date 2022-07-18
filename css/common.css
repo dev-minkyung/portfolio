@@ -123,7 +123,7 @@ header .main_menu ul li {
   color: #767676;
   padding: 20px 0;
 }
-header .main_menu ul li a.active {
+header .main_menu ul li.active {
   color: #88d3ce;
 }
 header.sticky {

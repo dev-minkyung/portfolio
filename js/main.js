@@ -9,7 +9,7 @@ window.onscroll = function() {
   }
 };
 
-
+// 메인메뉴 Click to scroll
 document.querySelectorAll('nav li').forEach(function(listItem){
   listItem.addEventListener('click', function() {
     const topPosition = document.getElementById(listItem.dataset.page).offsetTop;
@@ -19,17 +19,25 @@ document.querySelectorAll('nav li').forEach(function(listItem){
       behavior: 'smooth'
     })
   })
-})
-
-/*
-const menuEls = document.querySelectorAll('.main_menu a');
-
-menuEls.forEach ( function(menuEl) {
-  menuEl.addEventListner ('click', function() {
-    menuEl.classList.add("active");
-  });
 });
-*/
+
+// 메인메뉴 스크롤 위치에 따른 클래스 추가
+const navMenu = document.querySelectorAll('nav li');
+const contents = document.querySelectorAll('main > section');
+
+window.addEventListener('scroll', function() {
+  const sct = this.pageYOffset;
+
+  for(var i = 0; i < contents.length; i++){
+    if(contents[i].offsetTop <= sct){
+      const index = contents[i].getAttribute('data-num');
+      for(var a = 0; a < navMenu.length; a++){
+        navMenu[a].classList.remove('active');
+      }
+      navMenu[index].classList.add('active');
+    }
+  }
+});
 
 // footer 올해 연도 자동 입력
 const thisYear = document.querySelector('.this-year');

@@ -35,9 +35,9 @@
 			</h1>
 			<nav class="main_menu">
 				<ul>
-					<li data-page="main_view"><a href="javascript:void(0)">About</a></li>
-					<li data-page="skills"><a href="javascript:void(0)">Skills</a></li>
-					<li data-page="works"><a href="javascript:void(0)">Works</a></li>
+					<li data-page="main_view" data-num="0"><a href="javascript:void(0)">About</a></li>
+					<li data-page="skills" data-num="1"><a href="javascript:void(0)">Skills</a></li>
+					<li data-page="works" data-num="2"><a href="javascript:void(0)">Works</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -46,7 +46,7 @@
 
 	<!-- Main_view -->
 	<main>
-		<section id="main_view">
+		<section id="main_view" data-num="0">
 			<div class="inner">
 
 				<!-- 메인뷰 소개 글자 -->
@@ -80,7 +80,7 @@
 			</div>
 		</section>
 
-		<section id="skills">
+		<section id="skills" data-num="1">
 			<div class="inner">
 				<h2>Skills</h2>
 				<article class="skills_intro">
@@ -127,7 +127,7 @@
 			</div>
 		</section>
 
-		<section id="works">
+		<section id="works" data-num="2">
 			<div class="inner">
 				<h2>Works</h2>
 				<!-- 프로젝트 1 -->
