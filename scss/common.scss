@@ -47,7 +47,7 @@ a {
 	box-sizing: border-box;
 	font-size: 0.875rem;
 	cursor: pointer;
-	transition: all .8s;
+	transition: all .6s;
 	a { font-weight: 500; }
 
 	&:hover {
@@ -56,6 +56,15 @@ a {
 		a{ 
 			color: $bg-color;
 		}
+	}
+}
+
+.btn.btn-reverse {
+	border: 0;
+	background-color: $mint;
+	color: $bg-color;
+	&:hover {
+		background-color: darken($mint, 20%);
 	}
 }
 

@@ -43,18 +43,19 @@ window.addEventListener('scroll', function() {
 });
 
 
-// footer 올해 연도 자동 입력
-const thisYear = document.querySelector('.this-year');
-thisYear.textContent = new Date().getFullYear();
-
-
+// 스크롤 나타내기 효과
 const spyEls = document.querySelectorAll('section.scroll-spy');
 spyEls.forEach(function (spyEl) {
   new ScrollMagic
     .Scene({
-      triggerElement: spyEl, //보여짐 여부를 감시할 요소fmf wlwjd
+      triggerElement: spyEl, //보여짐 여부를 감시할 요소를 지정
       triggerHook: .6
     })
     .setClassToggle(spyEl, 'show')
     .addTo(new ScrollMagic.Controller());
 });
+
+
+// footer 올해 연도 자동 입력
+const thisYear = document.querySelector('.this-year');
+thisYear.textContent = new Date().getFullYear();

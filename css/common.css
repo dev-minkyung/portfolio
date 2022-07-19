@@ -47,7 +47,7 @@ a {
   box-sizing: border-box;
   font-size: 0.875rem;
   cursor: pointer;
-  transition: all 0.8s;
+  transition: all 0.6s;
 }
 .btn a {
   font-weight: 500;
@@ -58,6 +58,15 @@ a {
 }
 .btn:hover a {
   color: #1f1e1e;
+}
+
+.btn.btn-reverse {
+  border: 0;
+  background-color: #88d3ce;
+  color: #1f1e1e;
+}
+.btn.btn-reverse:hover {
+  background-color: #42b3ab;
 }
 
 .back-to-position {
