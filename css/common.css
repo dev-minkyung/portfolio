@@ -16,7 +16,7 @@ body {
 }
 
 section {
-  padding-top: 120px;
+  padding-top: 80px;
 }
 section:first-child {
   padding-top: 0;
@@ -36,12 +36,11 @@ img {
 a {
   text-decoration: none;
   color: inherit;
-  letter-spacing: 0.1rem;
   transition: color 0.4s;
 }
 
 .btn {
-  padding: 12px 16px;
+  padding: 10px 16px;
   background-color: inherit;
   color: #88d3ce;
   border: 1px solid #88d3ce;
@@ -59,6 +58,52 @@ a {
 }
 .btn:hover a {
   color: #1f1e1e;
+}
+
+.back-to-position {
+  opacity: 0;
+  transition: 1s;
+}
+
+.back-to-position.to-top {
+  transform: translateY(150px);
+}
+
+.show .back-to-position {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.show .back-to-position.delay-0 {
+  transition-delay: 0s;
+}
+
+.show .back-to-position.delay-1 {
+  transition-delay: 0.2;
+}
+
+.show .back-to-position.delay-2 {
+  transition-delay: 0.4s;
+}
+
+.show .back-to-position.delay-3 {
+  transition-delay: 0.6s;
+}
+
+.show .back-to-position.delay-4 {
+  transition-delay: 0.8s;
+}
+
+.show .back-to-position.delay-5 {
+  transition-delay: 1s;
+}
+
+.show .back-to-position.delay-6 {
+  transition-delay: 1.2s;
+}
+
+.show .back-to-position.delay-7 {
+  transition-delay: 1.4s;
 }
 
 /* input, button 스타일 리셋코드*/

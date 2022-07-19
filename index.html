@@ -13,7 +13,6 @@
 	<!-- 미디어쿼리 -->
 	<link href="./css/mediaquery.css" rel="stylesheet"/>
 
-
 	<!-- Fonts-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,6 +22,8 @@
 	<!-- Icon font-->
 	<script src="https://kit.fontawesome.com/3e793e8810.js" crossorigin="anonymous"></script>
 
+	<!-- ScrollMagic -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script defer src="./js/main.js"></script>
 </head>
 <body>
@@ -80,10 +81,10 @@
 			</div>
 		</section>
 
-		<section id="skills" data-num="1">
+		<section id="skills" data-num="1" class="scroll-spy">
 			<div class="inner">
 				<h2>Skills</h2>
-				<article class="skills_intro">
+				<article class="skills_intro back-to-position to-top delay-0">
 					<div class="skills_title">
 						<p>I love ceating a webesite</p>
 						<p>
@@ -94,7 +95,7 @@
 				</article>
 
 				<article class="skills_content">
-					<div class="design_skill">
+					<div class="design_skill back-to-position to-top delay-1">
 						<h4><i class="fa-solid fa-bezier-curve"></i>Design</h4>
 						<ul>
 							<li>포토샵과 일러스트로 아이콘 등의 일러스트 디자인 작업을 할 수 있습니다.</li>
@@ -102,7 +103,7 @@
 							<li>프로토타입을 만들어 웹사이트에서 필요한 동작효과를 표현할 수 있습니다.</li>
 						</ul>
 					</div>
-					<div class="dev_skill">
+					<div class="dev_skill back-to-position to-top delay-2">
 						<h4><i class="fa-solid fa-laptop-code"></i>Publishing</h4>
 						<ul>
 							<li>웹표준과 웹접근성에 바탕을 두고 꼼꼼하게 마크업을 작성합니다.</li>
@@ -114,24 +115,24 @@
 
 				<article class="tools">
 					<ul >
-						<li><img src="./images/logo/adobe-photoshop.svg" alt=""></li>
-						<li><img src="./images/logo/adobe-illustrator.svg" alt=""></li>
-						<li><img src="./images/logo/adobe-xd.svg" alt=""></li>
-						<li><img src="./images/logo/figma-original.svg" alt=""></li>
-						<li><img src="./images/logo/html-5.svg" alt=""></li>
-						<li><img src="./images/logo/css-3.svg" alt=""></li>
-						<li><img src="./images/logo/Sass.svg" alt=""></li>
-						<li><img src="./images/logo/js-square.svg" alt=""></li>
+						<li class="back-to-position to-top delay-0"><img src="./images/logo/adobe-photoshop.svg" alt=""></li>
+						<li class="back-to-position to-top delay-1"><img src="./images/logo/adobe-illustrator.svg" alt=""></li>
+						<li class="back-to-position to-top delay-2"><img src="./images/logo/adobe-xd.svg" alt=""></li>
+						<li class="back-to-position to-top delay-3"><img src="./images/logo/figma-original.svg" alt=""></li>
+						<li class="back-to-position to-top delay-4"><img src="./images/logo/html-5.svg" alt=""></li>
+						<li class="back-to-position to-top delay-5"><img src="./images/logo/css-3.svg" alt=""></li>
+						<li class="back-to-position to-top delay-6"><img src="./images/logo/Sass.svg" alt=""></li>
+						<li class="back-to-position to-top delay-7"><img src="./images/logo/js-square.svg" alt=""></li>
 					</ul>
 				</article>
 			</div>
 		</section>
 
-		<section id="works" data-num="2">
+		<section id="works" data-num="2" class="scroll-spy">
 			<div class="inner">
 				<h2>Works</h2>
 				<!-- 프로젝트 1 -->
-				<article class="project project_01">
+				<article class="project project_01 back-to-position to-top">
 					<div class="project_number">01</div>
 					<div class="project_image">
 						<img src="./images/website/doggle-doggle.JPG" alt="doggle-doggle website">
@@ -162,7 +163,7 @@
 				</article>
 
 				<!-- 프로젝트 2 -->
-				<article class="project project_02">
+				<article class="project project_02 back-to-position to-top">
 					<div class="project_number">02</div>
 					<div class="project_image">
 						<img src="./images/website/doggle-doggle.JPG" alt="doggle-doggle website">
@@ -193,7 +194,7 @@
 				</article>
 
 				<!-- 프로젝트 3 -->
-				<article class="project project_03">
+				<article class="project project_03 back-to-position to-top">
 					<div class="project_number">03</div>
 					<div class="project_image">
 						<img src="./images/website/plein doux.JPG" alt="plein doux website">
@@ -224,7 +225,7 @@
 				</article>
 
 				<!-- 프로젝트 4 -->
-				<article class="project project_04">
+				<article class="project project_04 back-to-position to-top delay-0">
 					<div class="project_number">04</div>
 					<div class="project_image">
 						<img src="./images/website/H.Lighting.JPG" alt="H.Lighting website">
@@ -255,7 +256,7 @@
 				</article>
 
 				<!-- 프로젝트 5 -->
-				<article class="project project_05">
+				<article class="project project_05 back-to-position to-top delay-0">
 					<div class="project_number">05</div>
 					<div class="project_image">
 						<img src="./images/website/doggle-doggle.JPG" alt="doggle-doggle website">
