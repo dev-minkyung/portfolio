@@ -7,19 +7,19 @@
   h2 {
     font-size: 8rem;
   }
-  main #main_view .inner {
+  #main_view .inner {
     flex-direction: column;
   }
-  main #skills .skills_intro .skills_title {
+  #skills .skills_intro .skills_title {
     font-size: 3rem;
   }
-  main #skills .skills_content .design_skill {
+  #skills .skills_content .design_skill {
     flex-basis: 40%;
   }
-  main #skills .skills_content .dev_skill {
+  #skills .skills_content .dev_skill {
     flex-basis: 40%;
   }
-  main #skills .tools ul {
+  #skills .tools ul {
     display: grid;
     grid-template-columns: repeat(4, 110px);
     grid-template-rows: repeat(2, 110px);
@@ -33,56 +33,56 @@
     font-size: 0.875rem;
     line-height: 1.5rem;
   }
-  main #main_view .intro .intro_title {
+  #main_view .intro .intro_title {
     font-size: 1rem;
   }
-  main #main_view .intro .intro_title .intro_gradient {
+  #main_view .intro .intro_title .intro_gradient {
     font-size: 3.5rem;
   }
-  main #main_view .intro .intro_content {
+  #main_view .intro .intro_content {
     font-size: 0.875rem;
   }
-  main #main_view .intro_image {
+  #main_view .intro_image {
     margin-bottom: 40px;
   }
-  main #main_view .intro_image .computer_coding {
+  #main_view .intro_image .computer_coding {
     width: 250px;
     height: 250px;
   }
-  main #main_view .intro_image .computer_coding .coding {
+  #main_view .intro_image .computer_coding .coding {
     top: 65px;
     right: 30px;
     width: 70px;
     height: 60px;
   }
-  main #main_view .intro_image .computer_coding .window {
+  #main_view .intro_image .computer_coding .window {
     display: none;
   }
-  main #skills .skills_intro {
+  #skills .skills_intro {
     margin-top: -20px;
   }
-  main #skills .skills_intro .skills_title {
+  #skills .skills_intro .skills_title {
     font-size: 1.75rem;
   }
-  main #skills .skills_content {
+  #skills .skills_content {
     flex-direction: column;
     gap: 40px;
     margin: 40px 0 60px;
   }
-  main #skills .tools ul {
+  #skills .tools ul {
     grid-template-columns: repeat(4, 70px);
     grid-template-rows: repeat(2, 70px);
     gap: 16px;
   }
-  main #skills .tools ul li img {
+  #skills .tools ul li img {
     padding: 0;
     width: 70px;
     height: 70px;
   }
-  main #works h2 {
+  #works h2 {
     margin: 0;
   }
-  main #works .project {
+  #works .project {
     width: calc(100% - 40px);
     flex-direction: column;
     height: 450px;
@@ -90,30 +90,30 @@
     border-radius: 0 100px 0 0;
     margin: 0 0 60px;
   }
-  main #works .project .project_image {
+  #works .project .project_image {
     order: 1;
     width: 100%;
   }
-  main #works .project .project_content {
+  #works .project .project_content {
     padding: 0;
   }
-  main #works .project .project_content .project_subject {
+  #works .project .project_content .project_subject {
     margin: 0;
   }
-  main #works .project .project_content .project_subject .project_title {
+  #works .project .project_content .project_subject .project_title {
     font-size: 1.75rem;
   }
-  main #works .project .project_content .project_process {
+  #works .project .project_content .project_process {
     margin: 20px 0;
     font-size: 0.875rem;
   }
-  main #works .project .project_content .project_process h4 {
+  #works .project .project_content .project_process h4 {
     width: 72px;
   }
-  main #works .project:nth-child(even) {
+  #works .project:nth-child(even) {
     border-radius: 0 100px 0 0;
   }
-  main #works .project:nth-child(even) .project_number {
+  #works .project:nth-child(even) .project_number {
     right: 0;
     text-align: end;
   }

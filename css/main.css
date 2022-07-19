@@ -242,31 +242,26 @@
   }
 }
 /* MAIN */
-main {
-  /* .main_view */
-  /* SKILLS END */
-}
-main #main_view {
-  margin-top: 72px;
+#main_view {
   height: calc(100vh - 72px);
 }
-main #main_view .inner {
+#main_view .inner {
   height: 100%;
   display: flex;
   flex-direction: row;
   gap: 20px;
   justify-content: space-between;
 }
-main #main_view .intro {
+#main_view .intro {
   flex-basis: 50%;
   margin-top: 10%;
 }
-main #main_view .intro .intro_title {
+#main_view .intro .intro_title {
   letter-spacing: 0.25rem;
   font-size: 1.25rem;
   font-weight: 200;
 }
-main #main_view .intro .intro_title .intro_gradient {
+#main_view .intro .intro_title .intro_gradient {
   display: inline-block;
   font-size: 5rem;
   font-weight: 700;
@@ -280,7 +275,7 @@ main #main_view .intro .intro_title .intro_gradient {
   -webkit-animation: rotate_gradient 4s infinite alternate;
           animation: rotate_gradient 4s infinite alternate;
 }
-main #main_view .intro .intro_content {
+#main_view .intro .intro_content {
   font-size: 1rem;
   font-weight: 500;
   color: #88d3ce;
@@ -288,21 +283,21 @@ main #main_view .intro .intro_content {
   line-height: 2;
   text-transform: uppercase;
 }
-main #main_view .intro .btn {
+#main_view .intro .btn {
   margin-top: 40px;
 }
-main #main_view .intro_image {
+#main_view .intro_image {
   flex-basis: 50%;
   align-self: flex-end;
   margin-bottom: 80px;
 }
-main #main_view .intro_image .computer_coding {
+#main_view .intro_image .computer_coding {
   width: 300px;
   height: 330px;
   position: relative;
   float: right;
 }
-main #main_view .intro_image .computer_coding .coding {
+#main_view .intro_image .computer_coding .coding {
   position: absolute;
   top: 85px;
   right: 35px;
@@ -311,14 +306,14 @@ main #main_view .intro_image .computer_coding .coding {
   overflow: hidden;
   transform: skewY(30deg);
 }
-main #main_view .intro_image .computer_coding .coding::before {
+#main_view .intro_image .computer_coding .coding::before {
   content: url("../images/coding.svg");
   display: block;
   width: 100%;
   -webkit-animation: loop_code 25s infinite linear;
           animation: loop_code 25s infinite linear;
 }
-main #main_view .intro_image .computer_coding .window {
+#main_view .intro_image .computer_coding .window {
   position: absolute;
   top: -80px;
   left: 80px;
@@ -338,7 +333,7 @@ main #main_view .intro_image .computer_coding .window {
   -webkit-animation: rotate_gradient 8s infinite alternate;
           animation: rotate_gradient 8s infinite alternate;
 }
-main #main_view .scroll_down .scroll_line {
+#main_view .scroll_down .scroll_line {
   width: 1px;
   height: 320px;
   overflow: hidden;
@@ -348,7 +343,7 @@ main #main_view .scroll_down .scroll_line {
   margin-left: 20px;
   background-color: #434343;
 }
-main #main_view .scroll_down .scroll_line:before {
+#main_view .scroll_down .scroll_line:before {
   content: "";
   display: block;
   width: 100%;
@@ -357,26 +352,28 @@ main #main_view .scroll_down .scroll_line:before {
   -webkit-animation: "loop_scroll_down" 5s infinite ease-in-out;
           animation: "loop_scroll_down" 5s infinite ease-in-out;
 }
-main #skills .skills_intro {
+
+/* .main_view */
+#skills .skills_intro {
   margin-top: -100px;
 }
-main #skills .skills_intro .skills_title {
+#skills .skills_intro .skills_title {
   font-size: 3rem;
   font-weight: 600;
   line-height: 1.2;
   text-align: center;
 }
-main #skills .skills_intro .skills_title .design_tool:after {
+#skills .skills_intro .skills_title .design_tool:after {
   content: "";
   -webkit-animation: "loop_designTool" 8s infinite linear;
           animation: "loop_designTool" 8s infinite linear;
 }
-main #skills .skills_intro .skills_title .dev_tool:after {
+#skills .skills_intro .skills_title .dev_tool:after {
   content: "";
   -webkit-animation: "loop_devTool" 8s infinite linear;
           animation: "loop_devTool" 8s infinite linear;
 }
-main #skills .skills_content {
+#skills .skills_content {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -384,16 +381,16 @@ main #skills .skills_content {
   gap: 80px;
   margin: 60px 0 80px;
 }
-main #skills .skills_content h4 {
+#skills .skills_content h4 {
   margin: 0 0 10px 10px;
 }
-main #skills .skills_content .design_skill {
+#skills .skills_content .design_skill {
   flex-basis: 25%;
 }
-main #skills .skills_content .dev_skill {
+#skills .skills_content .dev_skill {
   flex-basis: 25%;
 }
-main #skills .skills_content li {
+#skills .skills_content li {
   color: #d8d8d8;
   word-break: keep-all;
   line-height: 1.5rem;
@@ -401,7 +398,7 @@ main #skills .skills_content li {
   margin-left: 2em;
   margin-bottom: 10px;
 }
-main #skills .skills_content li::before {
+#skills .skills_content li::before {
   content: "✓";
   display: inline-block;
   width: 20px;
@@ -410,28 +407,30 @@ main #skills .skills_content li::before {
   text-indent: 0;
   margin-left: 0;
 }
-main #skills .tools {
+#skills .tools {
   margin-bottom: 80px;
 }
-main #skills .tools ul {
+#skills .tools ul {
   display: flex;
   flex-direction: row;
   gap: 20px;
   justify-content: center;
 }
-main #skills .tools ul li img {
+#skills .tools ul li img {
   padding: 15px;
   border: 1px solid rgba(136, 211, 206, 0.5);
   box-sizing: border-box;
 }
-main #works .inner {
+
+/* SKILLS END */
+#works .inner {
   margin: 0 auto;
 }
-main #works h2 {
+#works h2 {
   margin: 0 20px 0 0;
   float: right;
 }
-main #works .project {
+#works .project {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -447,7 +446,7 @@ main #works .project {
   margin: 0 auto 80px;
   /* 프로젝트 짝수 스타일 */
 }
-main #works .project .project_number {
+#works .project .project_number {
   position: absolute;
   top: 0;
   right: 0;
@@ -458,46 +457,48 @@ main #works .project .project_number {
   font-weight: 800;
   font-style: italic;
 }
-main #works .project .project_image {
+#works .project .project_image {
   flex-basis: 55%;
   overflow: hidden;
 }
-main #works .project .project_image img {
+#works .project .project_image img {
   width: 100%;
 }
-main #works .project .project_content {
+#works .project .project_content {
   flex-basis: 35%;
   padding: 0 20px;
 }
-main #works .project .project_content .project_subject {
+#works .project .project_content .project_subject {
   margin: 20px 0;
 }
-main #works .project .project_content .project_subject .project_title {
+#works .project .project_content .project_subject .project_title {
   font-size: 2rem;
   font-weight: 800;
 }
-main #works .project .project_content .project_process {
+#works .project .project_content .project_process {
   margin-bottom: 40px;
 }
-main #works .project .project_content .project_process h4 {
+#works .project .project_content .project_process h4 {
   width: 20%;
   display: inline-block;
   letter-spacing: 0;
 }
-main #works .project .project_content .project_process .project_cate {
+#works .project .project_content .project_process .project_cate {
   text-transform: uppercase;
 }
-main #works .project:nth-child(even) {
+#works .project:nth-child(even) {
   justify-content: flex-end;
   border-radius: 140px 0 0 0;
 }
-main #works .project:nth-child(even) .project_number {
+#works .project:nth-child(even) .project_number {
   left: 0;
 }
-main #works .project:nth-child(even) .project_image {
+#works .project:nth-child(even) .project_image {
   order: 2;
 }
-main #works .project:hover .project_image img {
+#works .project:hover .project_image img {
   -webkit-animation: preview_site 20s linear;
           animation: preview_site 20s linear;
 }
+
+/* WORKS END */

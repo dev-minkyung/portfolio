@@ -26,7 +26,7 @@ document.querySelectorAll('nav li').forEach(function(listItem){
 
 // 메인메뉴 스크롤 위치에 따른 클래스 추가
 const navMenu = document.querySelectorAll('nav li');
-const contents = document.querySelectorAll('main > section');
+const contents = document.querySelectorAll('section');
 
 window.addEventListener('scroll', function() {
   const sct = this.pageYOffset;
