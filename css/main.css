@@ -242,11 +242,8 @@
   }
 }
 /* MAIN */
-#main_view {
-  height: calc(100vh - 72px);
-}
 #main_view .inner {
-  height: 100%;
+  height: calc(100vh - 120px);
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -355,7 +352,7 @@
 
 /* .main_view */
 #skills .skills_intro {
-  margin-top: -100px;
+  margin-top: -60px;
 }
 #skills .skills_intro .skills_title {
   font-size: 3rem;
@@ -379,7 +376,7 @@
   gap: 20px;
   justify-content: center;
   gap: 80px;
-  margin: 60px 0 80px;
+  margin: 50px 0 70px;
 }
 #skills .skills_content h4 {
   margin: 0 0 10px 10px;
@@ -431,6 +428,9 @@
   float: right;
 }
 #works .project {
+  /* 프로젝트 짝수 스타일 */
+}
+#works .project .project_container {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -440,11 +440,10 @@
   max-width: 1000px;
   height: 300px;
   padding: 30px;
-  border: 1px solid rgba(136, 211, 206, 0.5);
-  border-radius: 0 130px 0 0;
-  background-color: #1f1e1e;
   margin: 0 auto 80px;
-  /* 프로젝트 짝수 스타일 */
+  background-color: #1f1e1e;
+  border: 1px solid rgba(136, 211, 206, 0.5);
+  border-radius: 0 120px 0 0;
 }
 #works .project .project_number {
   position: absolute;
@@ -453,7 +452,7 @@
   z-index: -1;
   color: #88d3ce;
   line-height: 1;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 800;
   font-style: italic;
 }
@@ -486,9 +485,9 @@
 #works .project .project_content .project_process .project_cate {
   text-transform: uppercase;
 }
-#works .project:nth-child(even) {
+#works .project:nth-child(even) .project_container {
   justify-content: flex-end;
-  border-radius: 140px 0 0 0;
+  border-radius: 120px 0 0 0;
 }
 #works .project:nth-child(even) .project_number {
   left: 0;
@@ -497,8 +496,8 @@
   order: 2;
 }
 #works .project:hover .project_image img {
-  -webkit-animation: preview_site 20s linear;
-          animation: preview_site 20s linear;
+  -webkit-animation: preview_site 15s linear;
+          animation: preview_site 15s linear;
 }
 
 /* WORKS END */
